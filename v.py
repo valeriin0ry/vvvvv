@@ -150,10 +150,10 @@ def Kilpkonn():
     x15 = np.arange(-3, 3, 0.5)
     y15 = (2/9) * x15**2 + 2
     plt.figure()
-    plt.plot(x1, y1, "r:*", x2, y2, "m-s", x3, y3, "c--D", x4, y4, "y-.H", 
-             x5, y5, "g:h", x6, y6, "w-s", x7, y7, "m-s", x8, y8, "m-s", 
-             x9, y9, "m-s", x10, y10, "m-s", x11, y11, "m-s", x12, y12, "m-s", 
-             x13, y13, "m-s", x14, y14, "m-s", x15, y15, "m-s")
+    plt.plot(x1, y1, "g:*", x2, y2, "g-s", x3, y3, "g--D", x4, y4, "g-.H", 
+             x5, y5, "g:h", x6, y6, "g-s", x7, y7, "g-s", x8, y8, "g-s", 
+             x9, y9, "g-s", x10, y10, "g-s", x11, y11, "g-s", x12, y12, "g-s", 
+             x13, y13, "g-s", x14, y14, "g-s", x15, y15, "g-s")
     plt.title("Kilpkonn")
     plt.ylabel("Y")
     plt.xlabel("X")
