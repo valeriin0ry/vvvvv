@@ -67,10 +67,10 @@ def Vihmavari():
     y4=(-1/8)*(x4-8)**2+6
     x5=np.arange(-4,-0.3,0.5)
     y5=2*(x5+3.2)**2-9
-    x6=np.arange(-4,0.2,0.5)
-    y6=1.5*(x6+3)**2-10
+    x6=np.arange(-4,0.3,0.5)
+    y6=1.5*(x6+3.2)**2-10
     plt.figure()
-    plt.plot(x1,y1,"r:*",x2,y2,"m-s",x3,y3,"c--D",x4,y4,"y-.H",x5,y5,"g:h",x6,y6,"w-s")
+    plt.plot(x1,y1,"r:*",x2,y2,"m-s",x3,y3,"c--D",x4,y4,"y-.H",x5,y5,"g:h",x6,y6,"m-s")
     plt.title("Vihmavari")
     plt.ylabel("Y")
     plt.xlabel("X")
