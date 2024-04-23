@@ -1,4 +1,4 @@
-from tkinter import *
+﻿from tkinter import *
 import matplotlib.pyplot as plt #Y funktsiooni loomiseks
 import numpy as np #X vahemik X[nim,max]
 def Vaal():
@@ -78,40 +78,40 @@ def Vihmavari():
     plt.show()
 
 def Liblikas():
-    x1 = np.arange(-9,-0.5,0.5)
-    y1 = (-1/8) * (x1 + 9)**2 + 8
-    x2 = np.arange(1,9,0.5)
-    y2 = (-1/8) * (x2 - 9)**2 + 8
-    x3 = np.arange(-9,-7.5,0.5)
-    y3 = 7 * (x3 + 8)**2 + 1
-    x4 = np.arange(8,9.5,0.5)
-    y4 = 7 * (x4 - 8)**2 + 1
-    x5 = np.arange(-8,-0.5,0.5)
-    y5 = (1/49) * (x5 + 1)**2
-    x6 = np.arange(1,8,0.5)
-    y6 = (1/49) * (x6 - 1)**2
-    x7 = np.arange(-8,-0.5,0.5)
-    y7 = (-4/49) * (x7 + 1)**2
-    x8 = np.arange(1,8.5,0.5)
-    y8 = (-4/49) * (x8 - 1)**2
-    x9 = np.arange(-8,-0.5,0.5)
-    y9 = (1/3) * (x9 + 5)**2 - 7
-    x10 = np.arange(1,8.5,0.5)
-    y10 = (1/3) * (x10 - 5)**2 - 7
-    x11 = np.arange(0,0,0.5)
-    y11 = -2 * (x11 + 1)**2 - 2
-    x12 = np.arange(0,0,0.5)
-    y12 = -2 * (x12 - 1)**2 - 2
-    x13 = np.arange(-1,1,0.5)
-    y13 = -4 * x13**2 + 2
-    x14 = np.arange(-1,1,0.5)
-    y14 = 4 * x14**2 - 6
-    x15 = np.arange(-1.5,0.5,0.5)
-    y15 = -1.5 * x15 + 2
-    x16 = np.arange(0,2,0.5)
-    y16 = 1.5 * x16 + 2
+    x1=np.arange(-9,-0.5,0.5)
+    y1=(-1/8)*(x1+9)**2+8
+    x2=np.arange(1,9,0.5)
+    y2=(-1/8)*(x2-9)**2+8
+    x3=np.arange(-9,-7.5,0.5)
+    y3=7*(x3+8)**2+1
+    x4=np.arange(8,9.5,0.5)
+    y4=7*(x4-8)**2+1
+    x5=np.arange(-8,-1,0.5)
+    y5=(1/49)*(x5+1)**2
+    x6=np.arange(1,8,0.5)
+    y6=(1/49)*(x6-1)**2
+    x7=np.arange(-8,-0.5,0.5)
+    y7=(-4/49)*(x7+1)**2
+    x8=np.arange(1,8.5,0.5)
+    y8=(-4/49)*(x8-1)**2
+    x9=np.arange(-8,-1.5,0.5)
+    y9=(1/3)*(x9+5)**2-7
+    x10=np.arange(2,8.5,0.5)
+    y10=(1/3)*(x10-5)**2-7
+    x11=np.arange(-2,-0.5,0.5)
+    y11=-2*(x11+1)**2-2
+    x12=np.arange(1,2.5,0.5)
+    y12=-2*(x12-1)**2-2
+    x13=np.arange(-1,1.5,0.5)
+    y13=-4*x13**2+2
+    x14=np.arange(-1,1.5,0.5)
+    y14=4*x14**2-6
+    x15=np.arange(-2,0.5,0.5)
+    y15=-1.5*x15+2
+    x16=np.arange(0,2.5,0.5)
+    y16=1.5*x16+2
     plt.figure()
-    plt.plot(x1,y1,"r:*",x2,y2,"m-s",x3,y3,"c--D",x4,y4,"y-.H",x5,y5,"g:h",x6,y6,"g-s",x7,y7,"m-s",x8,y8,"m-s",x9,y9,"m-s",x10,y10,"m-s",x11,y11,"m-s",x12,y12,"m-s",x13,y13,"m-s",x14,y14,"m-s",x15,y15,"m-s",x16,y16,"m-s")
+    plt.plot(x1, y1, "b-o", x2, y2, "b-o", x3, y3, "b-o", x4, y4, "b-o", x5, y5, "b-o", x6, y6, "b-o", x7, y7, "b-o", x8, y8, "b-o", x9, y9, "b-o", x10, y10, "b-o", x11, y11, "b-o", x12, y12, "b-o", x13, y13, "b-", x14, y14, "b-", x15, y15, "b-", x16, y16, "b-")
     plt.title("Liblikas")
     plt.ylabel("Y")
     plt.xlabel("X")
@@ -159,40 +159,16 @@ def Kilpkonn():
     plt.xlabel("X")
     plt.grid(True)
     plt.show()
-def Lind():
-    x1=np.arange(0,9,0.5)
-    y1=(-4/27)*x1**2+6
-    x2=np.arange(-2,9,0.5)
-    y2=(1/10)*(x2-7)**2-4
-    x3=np.arange(-4,0,0.5)
-    y3=-0.5*(x3+2)**2+8
-    x4=np.arange(-4.5,-1,0.5)
-    y4=(-1/14)*(x4+2)**2+5
-    x5=np.arange(-4.5,-1,0.5)
-    y5=x5-10
-    x6=np.arange(7,9,0.5)
-    y6=-x6-3
-    x7=np.arange(-6,1,0.5)
-    y7=0.5*x7-1
-    x8=np.arange(-5,2,0.5)
-    y8=0.5*x8-3.5
-    plt.figure()
-    plt.plot(x1,y1,"r:*",x2,y2,"m-s",x3,y3,"c--D",x4,y4,"y-.H",x5,y5,"g:h",x6,y6,"w-s",x7,y7,"m-s",x8,y8,"m-s")
-    plt.title("Lind")
-    plt.ylabel("Y")
-    plt.xlabel("X")
-    plt.grid(True)
-    plt.show()
 def valik(event):
     eval(f"{loetelu.get(loetelu.curselection())}()")
 
     
 aken=Tk()
 aken.geometry("400x500")
-aken.title("Akna pealkiri")
-aken.configure(bg="#13e0eb")
-l=["Vaal","Vihmavari","Liblikas","Prillid","Kilpkonn","Lind"]
-loetelu=Listbox(aken,font="Arial 30",fg="green",bg="gold",selectborderwidth=3,selectbackground="lightblue")
+aken.title("Joonised")
+aken.configure(bg="#ffa07a")
+l=["Vaal","Vihmavari","Liblikas","Prillid","Kilpkonn"]
+loetelu=Listbox(aken,font="Arial 30",fg="blue",bg="lightblue",selectborderwidth=3,selectbackground="blue")
 for i in range(len(l)):
     loetelu.insert(i,l[i])
 
